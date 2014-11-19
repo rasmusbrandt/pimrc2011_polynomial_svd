@@ -27,23 +27,23 @@ polynomial SVD, compared to using a multicarrier solution.
 ## Simulation code features
 
 * [Matlab][matlab] implementation of PSVD and PQRD algorithms as proposed in
-  [2][psvd] and as used in [1][pimrc2011_diva] and [3][thesis_diva].
+  [[2]][psvd] and as used in [[1]][pimrc2011_diva] and [[3]][thesis_diva].
 * `pmatlib` with `PMatrix` Matlab class, for easy manipulation of polynomial
   matrices in Matlab.
 * Matlab implementation of the phase optimization technique proposed in
-  [4][palomar].
+  [[4]][palomar].
 
 ## Running the simulations
 
 1. Ensure that you are able to build MEX files in Matlab. See guide
-[here][http://se.mathworks.com/help/matlab/matlab_external/what-you-need-to-build-mex-files.html]
+[here](http://se.mathworks.com/help/matlab/matlab_external/what-you-need-to-build-mex-files.html).
 2. For improved performance, build the MEX files:
   * `cd pmatlib` and then `convmat_build`
      The MEX implementation of `convmat` is a direct convolution of the two
      polynomial matrices. If the MEX implementation is not available, for
      example due to not being compiled, a frequency domain Matlab implementation
      is used for the convolution.
-  * There is also a MEX file implementing the subproblems of [4][palomar]. This
+  * There is also a MEX file implementing the subproblems of [[4]][palomar]. This
     MEX file however segfaults on the author's new computer, at the time of this
     writing (Nov. 2014). If you are feeling lucky, you may try using this MEX
     file by `cd palomar` and then `palomar_am_loop_build`. If this crashes your
@@ -57,7 +57,7 @@ As part of this package is the `pmatlib` library, which is a [Matlab][matlab]
 library for handling polynomial matrices. By using the provided Matlab class
 `PMatrix`, it becomes easy to apply polynomial matrix operations. The `pmatlib`
 also contains implementations of the polynomial matrix algorithms in
-[1][pimrc2011_diva], [2][psvd], and [3][thesis_diva].
+[[1]][pimrc2011_diva], [[2]][psvd], and [[3]][thesis_diva].
 
 ## License and referencing
 This source code is licensed under the [GPLv2][gplv2] license. If you in any way
@@ -84,6 +84,7 @@ original article. The following [Bibtex][bibtex] entry can be used.
 [pimrc2011_diva]: http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-50048
 [thesis_diva]: http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-134389
 [psvd]: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5286258
+[palomar]: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=950195
 [matlab]: http://www.mathworks.com
 [gplv2]: http://choosealicense.com/licenses/gpl-v2
 [bibtex]: http://www.bibtex.org/
