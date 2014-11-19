@@ -4,6 +4,8 @@ pimrc2011_polynomial_svd
 **pimrc2011_polynomial_svd** is the simulation environment for
 > [R. Brandt][rabr5411] and [M. Bengtsson][matben], "[Wideband MIMO Channel Diagonalization in the Time Domain][pimrc2011_diva]", in _Proc. IEEE Int. Symp. Indoor, Mobile Radio Commun. (PIMRC'11)_, 2011, pp. 1958-1962.
 
+Note that this code was written a couple of years ago, for now defunct versions of Matlab. This code comes with ABSOLUTELY NO WARRANTY.
+
 ## Abstract
 Methods for spatially diagonalizing wideband multiple-input multiple-output
 channels using linear finite impulse response (FIR) filters are investigated.
