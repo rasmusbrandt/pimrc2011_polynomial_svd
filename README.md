@@ -6,6 +6,8 @@ pimrc2011_polynomial_svd
 
 Note that this code was written a couple of years ago, for now defunct versions of Matlab. This code comes with ABSOLUTELY NO WARRANTY.
 
+[![DOI](https://zenodo.org/badge/6698/rasmusbrandt/pimrc2011_polynomial_svd.svg)](http://dx.doi.org/10.5281/zenodo.15545)
+
 ## Abstract
 Methods for spatially diagonalizing wideband multiple-input multiple-output
 channels using linear finite impulse response (FIR) filters are investigated.
