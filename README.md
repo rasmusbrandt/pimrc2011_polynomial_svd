@@ -79,7 +79,7 @@ original article. The following [Bibtex][bibtex] entry can be used.
 
 ## References
 1. R. Brandt and M. Bengtsson, "[Wideband MIMO Channel Diagonalization in the Time Domain][pimrc2011_diva]," in _Proc. IEEE Int. Symp. Indoor, Mobile Radio Commun. (PIMRC'11)_, 2011, pp. 1958-1962.
-2. J.A Foster, J.G. McWhirter, M.R. Davies, and J.A. Chambers, "[An Algorithm for Calculating the QR and Singular Value Decompositions of Polynomial Matrices][psvd]," in _IEEE Trans. Signal Process., vol.58, no.3, pp. 1263-1274, 2010
+2. J.A Foster, J.G. McWhirter, M.R. Davies, and J.A. Chambers, "[An Algorithm for Calculating the QR and Singular Value Decompositions of Polynomial Matrices][psvd]," in _IEEE Trans. Signal Process._, vol.58, no.3, pp. 1263-1274, 2010
 3. R. Brandt, "[Polynomial matrix decompositions: Evaluation of algorithms with an application to wideband MIMO communications][thesis_diva]," M.Sc. thesis, Uppsala University, Dec. 2010.
 4. D. P. Palomar, M. A. Lagunas, A. Pascual, and A. P. Neira, "[Practical implementation of jointly designed transmit receive space-time IIR filters][palomar],” in _Proc. Int. Symp. Signal Processing and its Applications_, 2001, pp. 521-524.
 
